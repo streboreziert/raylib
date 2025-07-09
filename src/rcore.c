@@ -557,6 +557,8 @@ const char *TextFormat(const char *text, ...);              // Formatting of tex
     #include "platforms/rcore_web.c"
 #elif defined(PLATFORM_DRM)
     #include "platforms/rcore_drm.c"
+#elif defined(PLATFORM_DRM)
+    #include "platforms/rcore_dual_drm.c"
 #elif defined(PLATFORM_ANDROID)
     #include "platforms/rcore_android.c"
 #else
